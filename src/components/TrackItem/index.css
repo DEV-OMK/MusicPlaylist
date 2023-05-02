@@ -1,0 +1,45 @@
+.track-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.track-image {
+  width: 120px;
+}
+
+.name-genre {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.name,
+.genre,
+.duration {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.genre {
+  color: #3b82f6;
+}
+
+.duration {
+  font-size: 14px;
+  margin-inline: 15px;
+}
+
+.delete-button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #cbd5e1;
+  font-weight: 500;
+  cursor: pointer;
+  margin-inline: 15px;
+}
